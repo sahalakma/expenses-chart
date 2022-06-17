@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+/* upper division space  */
+.upper-div{
+    position: absolute;
+    background-color: hsl(10, 79%, 65%);
+    width: 400px;
+    height: 120px;
+    font-family: 'DM Sans', sans-serif;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    color: white;
+}
+
+.upper-left{
+    padding-left: 6%;
+    padding-top: 7%;
+}
+
+.upper-left-top{
+    font-weight: 400;
+    font-size: 14px;
+}
+.upper-left-down{
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.upper-right{
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 80%;
+}
+
+/* Middle Portion  */
+
+.lower-div{
+    position: absolute;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.spending {
+    position: absolute;
+    padding-left: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 20px;
+    color: hsl(25, 47%, 15%);
+
+}
+
+.bars {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    padding-top: 20%;
+}
+.bars li {
+    display: table-cell;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.bars span {
+    width: 100%;
+    position: absolute;
+    bottom: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bars .bar{
+    display: block;
+    background-color: hsl(10, 79%, 65%);
+    width: 30px;
+    height: 100px;
+}
+
+
+/* Lower Portion  */
+
+.under {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+
