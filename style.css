@@ -27,15 +27,16 @@ body{
     font-size: 14px;
 }
 .upper-left-down{
-    padding-top: 5%;
-    font-size: 20px;
+    padding-top: 5px;
+    font-size: 22px;
     font-weight: 700;
 }
+
+/* image */
 .upper-right{
     position: relative;
-    display: flex;
-    justify-content:flex-start;
-    margin-left: 80%;
+    left: 300px;
+    top: -45px;
 }
 
 /* Middle Portion  */
@@ -73,7 +74,7 @@ body{
 }
 .bars li {
     display: table-cell;
-    width: 300px;
+    width: 350px;
     height: 300px;
     position: relative;
 }
@@ -81,25 +82,87 @@ body{
 .bars span {
     width: 100%;
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     text-align: center;
     font-size: 12px;
 }
 
 .bars .bar{
+    margin-left: 5px ;
     display: block;
     background-color: hsl(10, 79%, 65%);
-    width: 30px;
+    width: 35px;
     height: 100px;
+    position: absolute;
+    bottom: 180px;
+    border-radius: 5px;
 }
 
+.bars .bar:hover{
+    background-color: hsl(186, 34%, 60%);
+    cursor: pointer;
+    
+}
+
+.bars .bar:before{
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 30px ;
+    font-size: 12px;
+    border-radius: 5px;
+    width: max-content;
+    display: inline;
+    
+}
+
+hr{
+    height: 1px;
+    color: black;
+    background-color: black;
+    margin-top: 270px;
+    width: 300px;
+}
 
 /* Lower Portion  */
 
-.under {
+.bottom-left {
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 10%;
 }
 
+.bottom-left-top{
+    font-size: 12px;
+    color: gray;
+}
+
+.bottom-left-bottom{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.bottom-right{
+    position: absolute;
+    top: 320px;
+    left: 260px;
+    text-align: right;
+}
+
+.bottom-right-top{
+    font-size: 12px;
+    font-weight: 700;
+    left: 250px;
+}
+
+.bottom-right-bottom{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    white-space: nowrap;
+    right: 20px;
+    
+}
 
