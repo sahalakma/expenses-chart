@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css" >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Expenses chart component</title>
@@ -28,16 +31,11 @@
       Spending - Last 7 days
     </div>
 
-    <ul class="bars">
-      <li><div class="bar" data-percentage="30"></div><span>Mon</span></li>
-      <li><div class="bar" data-percentage="60"></div><span>Tue</span></li>
-      <li><div class="bar" data-percentage="100"></div><span>Wed</span></li>
-      <li><div class="bar" data-percentage="30"></div><span>Thu</span></li>
-      <li><div class="bar" data-percentage="20"></div><span>Fri</span></li>
-      <li><div class="bar" data-percentage="10"></div><span>Sat</span></li>
-      <li><div class="bar" data-percentage="25"></div><span>Sun</span></li>
-    </ul>
-
+<!-- chart session  -->
+    <div class="bar-session">
+    <canvas id="myChart" class="myChart"  ></canvas>
+    </div>
+<!-- line divide  -->
     <hr>
 
     <div class="bottom">
@@ -61,7 +59,8 @@
       </div> 
 
     </div>
-    
+
   </div>
 </body>
+<script src="script.js"></script>
 </html>

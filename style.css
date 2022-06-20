@@ -32,7 +32,7 @@ body{
     font-weight: 700;
 }
 
-/* image */
+/* image logo */
 .upper-right{
     position: relative;
     left: 300px;
@@ -64,58 +64,15 @@ body{
     color: hsl(25, 47%, 15%);
 
 }
+.bar-session{
+    top: 80%;
+}
 
-.bars {
-    display: inline-block;
+.myChart{
+    position: relative;
+    top: 55px;
     width: 300px;
     height: 300px;
-    position: absolute;
-    padding-top: 20%;
-}
-.bars li {
-    display: table-cell;
-    width: 350px;
-    height: 300px;
-    position: relative;
-}
-
-.bars span {
-    width: 100%;
-    position: absolute;
-    bottom: 150px;
-    text-align: center;
-    font-size: 12px;
-}
-
-.bars .bar{
-    margin-left: 5px ;
-    display: block;
-    background-color: hsl(10, 79%, 65%);
-    width: 35px;
-    height: 100px;
-    position: absolute;
-    bottom: 180px;
-    border-radius: 5px;
-}
-
-.bars .bar:hover{
-    background-color: hsl(186, 34%, 60%);
-    cursor: pointer;
-    
-}
-
-.bars .bar:before{
-    padding: 5px;
-    background-color: black;
-    color: #fff;
-    content: attr(data-percentage) '%';
-    position: relative;
-    bottom: 30px ;
-    font-size: 12px;
-    border-radius: 5px;
-    width: max-content;
-    display: inline;
-    
 }
 
 hr{
