@@ -64,6 +64,9 @@ body{
     color: hsl(25, 47%, 15%);
 
 }
+
+/* bar chart  */
+
 .bar-session{
     top: 80%;
 }
@@ -71,7 +74,7 @@ body{
 .myChart{
     position: relative;
     top: 55px;
-    width: 300px;
+    width: 250px;
     height: 300px;
 }
 
