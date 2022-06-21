@@ -41,9 +41,16 @@ xmlhttp.onreadystatechange = function() {
             tooltip: {
                 yAlign: "bottom",
                 bodyColor : "#fff",
+                bodyFont: {
+                    family: "DM sans",
+                    size: 14
+                },
+
                 callbacks: {
                     title: titleTooltip
+                    
                 },
+
                 displayColors: false    
                 
             }
@@ -71,21 +78,9 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("myChart"),
         config
         );
-
     }
-}   
-
-// const labels = [
-//     "mon",
-//     "tue",
-//     "wed",
-//     "thu",
-//     "fri",
-//     "sat",
-//     "sun"
-// ];
-
-//tooltip
+}
+ 
 
 
 
